@@ -1,0 +1,24 @@
+-- PREREQUISITES -- 
+
+This is purely tested on linux machines, it is not developed with windows in mind. However you might be able to run it, we don't know. 
+Seeing as a lot of things are restricted to Windows only, we dont see a problem with doing the opposite.
+
+Python 3 and Git must be installed.
+
+-- SETUP --
+
+(Creating a virtual environment is optional, but it makes the installation of modules be contained. If you are comfortable with python and pip, feel free to do it the way you prefer)
+
+Create a virtual environment for this python project, at the folder this document is residing in, type this in your terminal type:
+
+python -m venv venv
+
+Now activate it, (again in your terminal) like this:
+
+. venv/bin/activate
+
+Then install the requirements, like this:
+
+pip install -r requirements.txt
+
+You are now ready to test our framework. Keep in mind that the virtualenv needs to be activated in the terminal you're running the scripts from
